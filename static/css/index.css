@@ -71,11 +71,17 @@ body {
 }
 
 .publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
+   color: hsl(204, 86%, 53%);
 }
 
 .publication-authors a:hover {
     text-decoration: underline;
+}
+
+.publication-author-nolink {
+    pointer-events:none; 
+    cursor:default; 
+    color:#4a4a4a !important;
 }
 
 .author-block {
