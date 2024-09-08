@@ -139,5 +139,16 @@ body {
   font-size: smaller;
 }
 
+caption {
+    text-align:left;
+    margin-top: 20px;
+}
 
+.content table tbody tr:last-child td {
+    border-bottom-width: 2px;
+}
+
+tbody tr, thead tr {
+    text-align: center;
+}
 

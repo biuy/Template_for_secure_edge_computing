@@ -66,7 +66,7 @@
                       <a class="publication-author-nolink" target="_blank">Shujun Tang</a><sup>3</sup>,
                     </span>
                     <span class="author-block">
-                      <a href="https://netsec.ccert.edu.cn/people/duanhx/" target="_blank">Haixin Duan</a><sup>3,4</sup>,
+                      <a href="https://netsec.ccert.edu.cn/people/duanhx/" target="_blank">Haixin Duan</a><sup>3,4</sup>
                     </span>
                   </div>
                   <div class="is-size-5 publication-authors">
@@ -97,19 +97,9 @@
                           <span>Paper</span>
                         </a>
                       </span>
-                      <!-- Supplementary PDF link -->
-                      <span class="link-block">
-                        <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                          class="external-link button is-normal is-rounded is-dark">
-                          <span class="icon">
-                            <i class="fas fa-file-pdf"></i>
-                          </span>
-                          <span>Supplementary</span>
-                        </a>
-                      </span>
                       <!-- Github link -->
                       <span class="link-block">
-                        <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                        <a href="https://github.com/ChaseSecurity/Open_Edge_Computing_Platforms" target="_blank"
                           class="external-link button is-normal is-rounded is-dark">
                           <span class="icon">
                             <i class="fab fa-github"></i>
@@ -134,22 +124,18 @@
             </div>
           </div>
         </section>
-        <!-- Teaser video-->
+        <!-- Teaser -->
         <section class="hero teaser">
           <div class="container is-max-desktop">
-            <div class="hero-body">
-              <video poster="" id="tree" autoplay controls muted loop height="100%">
-                <!-- Your video here -->
-                <source src="static/videos/banner_video.mp4"
-                type="video/mp4">
-              </video>
-              <h2 class="subtitle has-text-centered">
-              Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
+            <div class="hero-body" align="center">
+              <img src="static/images/fig1.png" width="70%"/>
+              <h2 class="subtitle has-text-centered" style="margin-top:20px;">
+              <strong>The Open Edge Computing Ecosystem</strong>
               </h2>
             </div>
           </div>
         </section>
-        <!-- End teaser video -->
+        <!-- End teaser -->
         <!-- Paper abstract -->
         <section class="section hero is-light">
           <div class="container is-max-desktop">
@@ -166,95 +152,605 @@
           </div>
         </section>
         <!-- End paper abstract -->
-        <!-- Image carousel -->
-        <section class="hero is-small">
-          <div class="hero-body">
-            <div class="container">
-              <div id="results-carousel" class="carousel results-carousel">
-                <div class="item">
-                  <!-- Your image here -->
-                  <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-                  <h2 class="subtitle has-text-centered">
-                  First image description.
-                  </h2>
-                </div>
-                <div class="item">
-                  <!-- Your image here -->
-                  <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-                  <h2 class="subtitle has-text-centered">
-                  Second image description.
-                  </h2>
-                </div>
-                <div class="item">
-                  <!-- Your image here -->
-                  <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-                  <h2 class="subtitle has-text-centered">
-                  Third image description.
-                  </h2>
-                </div>
-                <div class="item">
-                  <!-- Your image here -->
-                  <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-                  <h2 class="subtitle has-text-centered">
-                  Fourth image description.
-                  </h2>
-                </div>
-              </div>
+        <!-- Section 1 -->
+        <section class="section">
+          <div class="container is-max-desktop">
+            <h2 class="title">Collecting and Analyzing Edge Activities</h2>
+            <div align="center">
+              <img src="static/images/fig2.png"/>
+              <h2 class="subtitle has-text-centered">
+                <strong>The Pipeline of The Edge Traffic Analyzer</strong>
+              </h2>
             </div>
           </div>
         </section>
-        <!-- End image carousel -->
-        <!-- Youtube video -->
-        <section class="hero is-small is-light">
-          <div class="hero-body">
-            <div class="container">
-              <!-- Paper video. -->
-              <h2 class="title is-3">Video Presentation</h2>
-              <div class="columns is-centered has-text-centered">
-                <div class="column is-four-fifths">
-                  
-                  <div class="publication-video">
-                    <!-- Youtube embed code here -->
-                    <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
+        
+        <!-- Section 2 -->
+        <section class="section">
+          <div class="container is-max-desktop content">
+            <h2 class="title">The Ecosystem</h2>
+            <strong class="subtitle">Edge Computing Nodes</strong>
+            <table>
+              <caption><strong>The stats of edge nodes as observed in edge traffic.</strong></caption>
+              <thead>
+                  <tr>
+                      <th>Platform</th>
+                      <th>Node Source</th>
+                      <th>Node IPs</th>
+                      <th>/8 IPv4</th>
+                      <th>ASes</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>TipTime</td>
+                      <td>YunFan CDN</td>
+                      <td>17,585</td>
+                      <td>51</td>
+                      <td>46</td>
+                  </tr>
+                  <tr>
+                      <td>OneThingCloud</td>
+                      <td>Bilibili CDN</td>
+                      <td>1,817</td>
+                      <td>49</td>
+                      <td>38</td>
+                  </tr>
+                  <tr>
+                      <td>OneThingCloud</td>
+                      <td>Xingyu CDN</td>
+                      <td>2,818</td>
+                      <td>32</td>
+                      <td>5</td>
+                  </tr>
+                  <tr>
+                      <td>Both</td>
+                      <td>All</td>
+                      <td>22,214</td>
+                      <td>54</td>
+                      <td>67</td>
+                  </tr>
+              </tbody>
+            </table>
+
+            <table>
+              <caption><strong>The stats of edge nodes as observed in passive DNS.</strong></caption>
+              <thead>
+                  <tr>
+                      <th>Platform</th>
+                      <th>Node FQDNs</th>
+                      <th>Node IPs<sup>1</sup></th>
+                      <th>IPv6</th>
+                      <th>/8 IPv4</th>
+                      <th>ASes<sup>2</sup></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>TipTime</td>
+                      <td>4,233,571,373</td>
+                      <td>28,212,313</td>
+                      <td>9,416,567</td>
+                      <td>89</td>
+                      <td>114</td>
+                  </tr>
+                  <tr>
+                      <td>OneThingCloud</td>
+                      <td>100,492,251</td>
+                      <td>7,383,677</td>
+                      <td>4,654,242</td>
+                      <td>255</td>
+                      <td>182</td>
+                  </tr>
+                  <tr>
+                      <td>Both</td>
+                      <td>4,334,063,624</td>
+                      <td>34,364,400</td>
+                      <td>14,070,775</td>
+                      <td>255</td>
+                      <td>237</td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="6">
+                          <small>
+                              <sup>1</sup> Both IPv4 and IPv6 addresses.<br>
+                              <sup>2</sup> Each platform has 500K IPs sampled to query IPinfo for autonomous systems (ASes).
+                          </small>
+                      </td>
+                  </tr>
+              </tfoot>
+            </table>
+
+            <strong class="subtitle">Edge-Assisted Content Delivery</strong>
+            <table>
+              <caption><strong>The list of CDN services and content providers.</strong></caption>
+              <thead>
+                  <tr>
+                      <th>CDN</th>
+                      <th>OECP</th>
+                      <th>Content Provider</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>YunFan CDN</td>
+                      <td>TipTime</td>
+                      <td>KuaiShou, Douyin, Baidu Cloud, PPTV, Mogen Cloud, Jingdong Cloud, Zuiyou</td>
+                  </tr>
+                  <tr>
+                      <td>Wangsu CDN</td>
+                      <td>TipTime</td>
+                      <td>Toutiao</td>
+                  </tr>
+                  <tr>
+                      <td>Xingyu CDN</td>
+                      <td>OneThing Cloud</td>
+                      <td>Zuiyou, Wasu TV, Netease, Toutiao, GiTV, imoo, Xiaomi</td>
+                  </tr>
+                  <tr>
+                      <td>Bilibili CDN</td>
+                      <td>OneThing Cloud</td>
+                      <td>Bilibili</td>
+                  </tr>
+                  <tr>
+                      <td>Baidu CDN</td>
+                      <td>OneThing Cloud</td>
+                      <td>Haokan Video, Baidu Cloud</td>
+                  </tr>
+                  <tr>
+                      <td>Xunlei CDN</td>
+                      <td>OneThing Cloud</td>
+                      <td>Xunlei</td>
+                  </tr>
+              </tbody>
+            </table>
+            <table>
+              <caption><strong>CDN nodes observed in passive DNS.</strong></caption>
+              <thead>
+                  <tr>
+                      <th>CDN<sup>1</sup></th>
+                      <th>Node FQDN Pattern</th>
+                      <th>FQDNs</th>
+                      <th>IPs</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td rowspan="7">YunFan</td>
+                      <td>*yf*.nodeedge.cn</td>
+                      <td>601,996,484</td>
+                      <td>8,205,570</td>
+                  </tr>
+                  <tr>
+                      <td>*yf*.free-lbv6.idouyinvod.com</td>
+                      <td>1,613,619,196</td>
+                      <td>20,469,328</td>
+                  </tr>
+                  <tr>
+                      <td>*yf*.dl.jcloudimg.com</td>
+                      <td>302,535,129</td>
+                      <td>6,162,593</td>
+                  </tr>
+                  <tr>
+                      <td>ndsv1-*.jdcloudstatus.net /*yf*.jdcloudstatus.net</td>
+                      <td>761,048,329</td>
+                      <td>16,149,799</td>
+                  </tr>
+                  <tr>
+                      <td>ndsv1-*.cdnnode.cn</td>
+                      <td>257,696,943</td>
+                      <td>6,778,555</td>
+                  </tr>
+                  <tr>
+                      <td>ndsv1-*.cachenode.cn</td>
+                      <td>696,675,292</td>
+                      <td>12,792,771</td>
+                  </tr>
+                  <tr>
+                      <td>All</td>
+                      <td>4,233,571,373</td>
+                      <td>28,212,313</td>
+                  </tr>
+                  <tr>
+                      <td>Xingyu</td>
+                      <td>*.vld.szbdyd.com /*.v2l.szbdyd.com</td>
+                      <td>100,492,251</td>
+                      <td>7,383,677</td>
+                  </tr>
+                  <tr>
+                      <td>Wangsu</td>
+                      <td><i>d</i>g*.ourdvsss.com</td>
+                      <td>370,137</td>
+                      <td>322,859</td>
+                  </tr>
+                  <tr>
+                      <td>All</td>
+                      <td>All</td>
+                      <td>4,334,434,710</td>
+                      <td>34,597,596</td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="4">
+                          <small>
+                              <sup>1</sup> Since the three CDN services have very few nodes observed before May 2016, we set the time window as May, 2016 to November, 2023, when querying passive DNS.
+                          </small>
+                      </td>
+                  </tr>
+              </tfoot>
+            </table>
           </div>
         </section>
-        <!-- End youtube video -->
-        <!-- Video carousel -->
-        <section class="hero is-small">
-          <div class="hero-body">
-            <div class="container">
-              <h2 class="title is-3">Another Carousel</h2>
-              <div id="results-carousel" class="carousel results-carousel">
-                <div class="item item-video1">
-                  <video poster="" id="video1" autoplay controls muted loop height="100%">
-                    <!-- Your video file here -->
-                    <source src="static/videos/carousel1.mp4"
-                    type="video/mp4">
-                  </video>
-                </div>
-                <div class="item item-video2">
-                  <video poster="" id="video2" autoplay controls muted loop height="100%">
-                    <!-- Your video file here -->
-                    <source src="static/videos/carousel2.mp4"
-                    type="video/mp4">
-                  </video>
-                </div>
-                <div class="item item-video3">
-                  <video poster="" id="video3" autoplay controls muted loop height="100%">\
-                    <!-- Your video file here -->
-                    <source src="static/videos/carousel3.mp4"
-                    type="video/mp4">
-                  </video>
-                </div>
-              </div>
+
+
+        <!-- Section 3 -->
+        <section class="section">
+          <div class="container is-max-desktop content">
+            <h2 class="title">The Security Risks</h2>
+            <strong class="subtitle">The Exposure of Credentials to Attackers</strong>
+            <div align="center">
+              <img src="static/images/fig3.png" width="70%" />
             </div>
+            <strong class="subtitle">Low Threat Reputation of Edge Node IPs</strong>
+            <table>
+              <caption><strong>The threat reputation of edge node IPs as revealed by the proprietary threat platform.</strong></caption>
+              <thead>
+                  <tr>
+                      <th>Edge</th>
+                      <th>Group</th>
+                      <th>w MTFs<sup>1</sup></th>
+                      <th>≥ 5 MTFs<sup>1</sup></th>
+                      <th>≥ 10 MTFs<sup>1</sup></th>
+                      <th>Median MTFs<sup>2</sup></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td rowspan="4">TipTime</td>
+                      <td>Edge<sub>Traffic</sub></td>
+                      <td>88.06%</td>
+                      <td>83.09%</td>
+                      <td>79.66%</td>
+                      <td>359</td>
+                  </tr>
+                  <tr>
+                      <td>CDN<sub>Traffic</sub></td>
+                      <td>83.44%</td>
+                      <td>78.67%</td>
+                      <td>75.45%</td>
+                      <td>363</td>
+                  </tr>
+                  <tr>
+                      <td>Edge<sub>DNS</sub></td>
+                      <td>62.72%</td>
+                      <td>58.09%</td>
+                      <td>55.37%</td>
+                      <td>283</td>
+                  </tr>
+                  <tr>
+                      <td>All</td>
+                      <td>65.94%</td>
+                      <td>61.30%</td>
+                      <td>58.50%</td>
+                      <td>297</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="4">OneThing</td>
+                      <td>Edge<sub>Traffic</sub></td>
+                      <td>57.07%</td>
+                      <td>49.60%</td>
+                      <td>45.97%</td>
+                      <td>110</td>
+                  </tr>
+                  <tr>
+                      <td>CDN<sub>Traffic</sub></td>
+                      <td>78.57%</td>
+                      <td>71.71%</td>
+                      <td>67.89%</td>
+                      <td>202</td>
+                  </tr>
+                  <tr>
+                      <td>Edge<sub>DNS</sub></td>
+                      <td>29.70%</td>
+                      <td>26.80%</td>
+                      <td>25.13%</td>
+                      <td>173</td>
+                  </tr>
+                  <tr>
+                      <td>All</td>
+                      <td>64.41%</td>
+                      <td>58.52%</td>
+                      <td>55.26%</td>
+                      <td>196</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="4">Both</td>
+                      <td>Edge<sub>Traffic</sub></td>
+                      <td>78.25%</td>
+                      <td>72.48%</td>
+                      <td>68.99%</td>
+                      <td>280</td>
+                  </tr>
+                  <tr>
+                      <td>CDN<sub>Traffic</sub></td>
+                      <td>80.11%</td>
+                      <td>73.91%</td>
+                      <td>70.28%</td>
+                      <td>244</td>
+                  </tr>
+                  <tr>
+                      <td>Edge<sub>DNS</sub></td>
+                      <td>58.00%</td>
+                      <td>53.62%</td>
+                      <td>51.05%</td>
+                      <td>273</td>
+                  </tr>
+                  <tr>
+                      <td>All</td>
+                      <td>65.42%</td>
+                      <td>60.36%</td>
+                      <td>57.41%</td>
+                      <td>260</td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="6">
+                          <small>
+                              <sup>1</sup> The fraction of IPs with one or more malicious traffic flows (MTFs) observed during January, 2022 and November, 2023.<br>
+                              <sup>2</sup> The median number of MTFs for node IP addresses that have one or more MTFs.
+                          </small>
+                      </td>
+                  </tr>
+              </tfoot>
+            </table>
+            <table>
+              <caption><strong>Statistics of edge nodes' malicious activities as captured by VirusTotal: <i>Mal</i> denotes malicious.</strong></caption>
+              <thead>
+                  <tr>
+                      <th>Edge</th>
+                      <th>Group</th>
+                      <th>Mal</th>
+                      <th>W Mal URLs</th>
+                      <th>W Malware</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td rowspan="3">TipTime</td>
+                      <td>Edge<sub>Traffic</sub></td>
+                      <td>3.99%</td>
+                      <td>3.96%</td>
+                      <td>0.81%</td>
+                  </tr>
+                  <tr>
+                      <td>CDN<sub>Traffic</sub></td>
+                      <td>3.62%</td>
+                      <td>3.59%</td>
+                      <td>0.73%</td>
+                  </tr>
+                  <tr>
+                      <td>Edge<sub>DNS</sub></td>
+                      <td>2.75%</td>
+                      <td>2.73%</td>
+                      <td>0.91%</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="3">OneThing</td>
+                      <td>Edge<sub>Traffic</sub></td>
+                      <td>2.33%</td>
+                      <td>2.33%</td>
+                      <td>0.22%</td>
+                  </tr>
+                  <tr>
+                      <td>CDN<sub>Traffic</sub></td>
+                      <td>3.01%</td>
+                      <td>2.99%</td>
+                      <td>0.46%</td>
+                  </tr>
+                  <tr>
+                      <td>Edge<sub>DNS</sub></td>
+                      <td>3.07%</td>
+                      <td>3.04%</td>
+                      <td>1.31%</td>
+                  </tr>
+                  <tr>
+                      <td rowspan="3">Both</td>
+                      <td>Edge<sub>Traffic</sub></td>
+                      <td>3.47%</td>
+                      <td>3.44%</td>
+                      <td>0.62%</td>
+                  </tr>
+                  <tr>
+                      <td>CDN<sub>Traffic</sub></td>
+                      <td>3.21%</td>
+                      <td>3.19%</td>
+                      <td>0.55%</td>
+                  </tr>
+                  <tr>
+                      <td>Edge<sub>DNS</sub></td>
+                      <td>2.78%</td>
+                      <td>2.76%</td>
+                      <td>0.94%</td>
+                  </tr>
+              </tbody>
+            </table>
+            <table>
+              <caption><strong>Top 5 categories of malicious traffic flows.</strong></caption>
+              <thead>
+                  <tr>
+                      <th>Category</th>
+                      <th>MTFs</th>
+                      <th>% MTFs</th>
+                      <th>% Edge IPs</th>
+                      <th>% CDN IPs</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>Botnet</td>
+                      <td>1.37B</td>
+                      <td>68.92%</td>
+                      <td>11.08%</td>
+                      <td>11.84%</td>
+                  </tr>
+                  <tr>
+                      <td>RAT<sup>1</sup></td>
+                      <td>312M</td>
+                      <td>15.69%</td>
+                      <td>55.90%</td>
+                      <td>59.59%</td>
+                  </tr>
+                  <tr>
+                      <td>Illicit promotion</td>
+                      <td>111M</td>
+                      <td>5.60%</td>
+                      <td>48.88%</td>
+                      <td>50.73%</td>
+                  </tr>
+                  <tr>
+                      <td>Cryptojacking</td>
+                      <td>67M</td>
+                      <td>3.38%</td>
+                      <td>17.17%</td>
+                      <td>18.09%</td>
+                  </tr>
+                  <tr>
+                      <td>Malicious downloads</td>
+                      <td>44M</td>
+                      <td>2.21%</td>
+                      <td>4.92%</td>
+                      <td>5.19%</td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="5">
+                          <small>
+                              <sup>1</sup> RAT stands for the remote access trojan.
+                          </small>
+                      </td>
+                  </tr>
+              </tfoot>
+            </table>
+
+            <strong class="subtitle">The Validation Failures of TLS Certificates</strong>
+            <table>
+                <caption><strong>The issue of certificate validation failures for edge nodes, wherein ❌ denotes validation failures.</strong></caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2">Edge Type</th>
+                        <th colspan="3">Traffic Category</th>
+                    </tr>
+                    <tr>
+                        <th>Control<sup>1</sup></th>
+                        <th>Logging<sup>1</sup></th>
+                        <th>Task Payload<sup>1</sup></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>TipTime</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <td>OneThingCloud</td>
+                        <td>✔️</td>
+                        <td>❌</td>
+                        <td>✔️</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">
+                            <small>1. Task Payloads denotes flows for downloading deployment payloads of edge computing tasks.</small>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <table>
+              <caption><strong>The issue of certificate validation failures for CDN modules, wherein ❌ denotes validation failures.</strong></caption>
+              <thead>
+                  <tr>
+                      <th rowspan="2">CDN Task</th>
+                      <th colspan="4">Traffic Category</th>
+                  </tr>
+                  <tr>
+                      <th>Control<sup>1</sup></th>
+                      <th>Caching<sup>1</sup></th>
+                      <th>Logging<sup>1</sup></th>
+                      <th>Certificate Update<sup>1</sup></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>YunFan CDN</td>
+                      <td>❌</td>
+                      <td>❌</td>
+                      <td>❌</td>
+                      <td>❌</td>
+                  </tr>
+                  <tr>
+                      <td>Wangsu CDN</td>
+                      <td>N/A<sup>2</sup></td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                  </tr>
+                  <tr>
+                      <td>Xingyu CDN</td>
+                      <td>❌</td>
+                      <td>N/A</td>
+                      <td>❌</td>
+                      <td>N/A</td>
+                  </tr>
+                  <tr>
+                      <td>Bilibili CDN</td>
+                      <td>✔</td>
+                      <td>❌</td>
+                      <td>❌</td>
+                      <td>N/A</td>
+                  </tr>
+                  <tr>
+                      <td>Baidu CDN</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                      <td>N/A</td>
+                  </tr>
+                  <tr>
+                      <td>Xunlei CDN</td>
+                      <td>N/A</td>
+                      <td>❌</td>
+                      <td>❌</td>
+                      <td>N/A</td>
+                  </tr>
+              </tbody>
+              <tfoot>
+                  <tr>
+                      <td colspan="5">
+                          <small>
+                              <sup>1</sup> Caching denotes flows for caching content payloads, while Certificate Update refers to flows for retrieving TLS certificates and private keys.<br>
+                              <sup>2</sup> N/A denotes the traffic flows are either unavailable or they are not TLS.
+                          </small>
+                      </td>
+                  </tr>
+              </tfoot>
+            </table>
+
           </div>
         </section>
-        <!-- End video carousel -->
+
+
+
+
+
         <!-- Paper poster -->
 <!--         <section class="hero is-small is-light">
           <div class="hero-body">
